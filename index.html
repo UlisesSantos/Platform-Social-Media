@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+    <title>Social Media</title>
+  </head>
+  <body>
+    <aside>
+      <div class="name-social-media">
+        <h2>Social Media</h2>
+      </div>
+
+      <div class="button-aside" id="home-aside">
+        <i class="ri-home-line"></i>
+        <h3>Home</h3>
+      </div>
+      <div class="button-aside" id="profile-aside">
+        <i class="ri-profile-line"></i>
+        <h3>Profile</h3>
+      </div>
+      <div class="button-aside" id="notifications-aside">
+        <i class="ri-notification-line"></i>
+        <h3>Notifications</h3>
+      </div>
+      <div class="button-aside" id="settings-aside">
+        <i class="ri-settings-line"></i>
+        <h3>Settings</h3>
+      </div>
+    </aside>
+
+    <div class="content">
+      <nav>
+        <input type="Search" placeholder="Search profile ..." />
+        <i class="ri-search-line"></i>
+      </nav>
+
+      <div class="profile">
+        <div class="picture-profile">
+          <img src="Images/profile.png" alt="" />
+          <h3>Profile picture</h3>
+          <div class="buttons-profile">
+            <button class="upload-image-profile" id="upload-img-profile">
+              <i class="ri-upload-2-line"></i>Upload Image
+            </button>
+            <button class="remove-image-profile" id="remove-img-profile">
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="name">
+        <div class="firstname-name">
+          <h3>First name</h3>
+          <input type="Name" />
+        </div>
+        <div class="lastname-name">
+          <h3>Last name</h3>
+          <input type="Last name" />
+        </div>
+      </div>
+
+      <div class="email">
+        <h3>Email</h3>
+        <div class="input-email">
+          <input type="Email" />
+          <button class="change-email-button">Change email</button>
+        </div>
+        <button class="add-email-button">+ Add another email</button>
+      </div>
+
+      <div class="phone">
+        <h3>Phone Number</h3>
+        <div class="input-phone">
+          <input type="Phone Number" />
+          <button class="change-phone-button">Change phone number</button>
+        </div>
+        <button class="add-phone-button">+ Add another phone number</button>
+      </div>
+
+      <div class="address">
+        <h3>Address</h3>
+        <div class="input-address">
+          <input type="Address" />
+          <button class="change-address-button">Change address</button>
+        </div>
+        <button class="add-address-button">+ Add another address</button>
+      </div>
+    </div>
+
+    <div class="information">
+      <div class="hidden-information">
+        <i class="ri-eye-off-line"></i>
+        <h2>Some information isn't displayed</h2>
+        <p>
+          Application, we've taken steps to safeguard your identity by not
+          displaying certain account details.
+        </p>
+        <button class="help-button">
+          <i class="ri-question-mark"></i>
+          <p>Further help?</p>
+        </button>
+      </div>
+
+      <div class="editable-information">
+        <i class="ri-edit-box-line"></i>
+        <h2>Editable information</h2>
+        <p>
+          You can easily update your contact information and personal detail.
+          Just keep in mind, if any of this information was used for identity
+          verification, you'll needto go through the verification process again
+          when booking or hosting next time.
+        </p>
+        <button class="help-button">
+          <i class="ri-question-mark"></i>
+          <p>Further help?</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
